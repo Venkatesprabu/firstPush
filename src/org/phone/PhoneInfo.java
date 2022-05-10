@@ -8,6 +8,7 @@ public class PhoneInfo {
 		d.camera();
 		d.storage();
 		d.osName();
+		d.USBType();
 	}
 
 	private void phoneName() {
@@ -34,5 +35,9 @@ public class PhoneInfo {
 	private void osName() {
 
 		System.out.println("OsName");
+	}
+	private void USBType() {
+
+		System.out.println("USB 3.1");
 	}
 }
