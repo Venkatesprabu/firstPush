@@ -8,7 +8,11 @@ public class PhoneInfo {
 		d.camera();
 		d.storage();
 		d.osName();
+<<<<<<< HEAD
+		d.USBType();
+=======
 		d.typeRAM();
+>>>>>>> b7e7961d573615c333966f71819d7bc368b12db7
 	}
 
 	private void phoneName() {
@@ -39,5 +43,10 @@ public class PhoneInfo {
 	private void typeRAM() {
 
 		System.out.println("LDDR 2.1");
+	}
+	private void USBType() {
+
+		System.out.println("USB 3.1");
+
 	}
 }
